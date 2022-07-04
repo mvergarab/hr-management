@@ -1,3 +1,3 @@
 # hr-management
 
-Mini app built in React + Node js about
+Mini app built in React + Node js 
