@@ -24,10 +24,18 @@
   padding-right: 15px;
 }
 
-.information button {
+.button {
   margin-top: 15px;
   margin-bottom: 15px;
   width: 180px;
   height: 50px;
   border-radius: 50px;
+}
+
+.employees {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: aqua;
 }
