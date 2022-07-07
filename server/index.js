@@ -45,4 +45,11 @@ app.get('/employees', (req, res) => {
   });
 });
 
+app.put('/update', (req, res) => {
+  const id = req.body.id
+  db.query('UPDATE SET employees WHERE id=id', (req, res) => {
+
+  });
+});
+
 app.listen(3001, () => console.log('server running properly'))

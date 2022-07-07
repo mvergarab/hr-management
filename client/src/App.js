@@ -28,6 +28,14 @@ function App() {
     });
   };
 
+  const updateEmployeesModal = () => {
+
+  };
+
+  const updateEmployee = () => {
+
+  };
+
   return (
     <div className="App">
       <div className="information">
@@ -54,6 +62,7 @@ function App() {
               <h3>Country: { val.country }</h3>
               <h3>Position: { val.position }</h3>
               <h3>Salary: { val.wage }</h3>
+              <button onClick={ updateEmployeesModal }>Show Employee</button>
             </div>
           );
         })}
