@@ -36,12 +36,19 @@ app.post('/create', (req, res) => {
 });
 
 app.get('/employees', (req, res) => {
-  db.query('SELECT * FROM employees', (err, res) => {
+  db.query('SELECT * FROM employees', (err, result) => {
     if (err) {
       console.log(err)
     } else {
       res.send(result)
     }
+  });
+});
+
+app.put('/update', (req, res) => {
+  const id = req.body.id
+  db.query('UPDATE SET employees WHERE id=id', (req, res) => {
+
   });
 });
 
